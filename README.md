@@ -5,8 +5,11 @@ Unlike the standard RAG approach, which relies on textual input, Graph RAG repla
 A series of standard query typologies for KGs have been tested in this setup, examining how Large Language Models (LLMs) can respond to these queries in natural language. The results returned by the LLMs are compared to the SPARQL standard, measuring performance metrics.
 
 LLMs utilized: : Mixtral-8x7B-Instruct-v0.1, GPT-3.5-Turbo, and GPT-4o 
+
 Graph RAG: Microsoft  https://github.com/microsoft/graphrag
+
 Query Taxonomy:
+
 1)Reading the object for a known relationship with a known subject
 SELECT ?object WHERE {@node @predicate ?object.}
 
